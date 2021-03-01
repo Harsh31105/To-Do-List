@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+    background-color: #091921;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+.instructions {
+    margin-top: 10vh;
+    text-align: center;
+    color: white;
+}
+
+.separator {
+    margin-top: 10vh;
+    width: 30vw;
+    height: 3px;
+    border-radius: 20px;
+    background-color: tomato;
+}
+
+.container,
+#To-Do-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    color: tomato;
+    text-align: center;
+    background-color: white;
+    border-radius: 20px;
+    width: 40vw;
+    height: 5vh;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+}
+
+button {
+    color: white;
+    background-color: yellowgreen;
+    width: 8vw;
+    height: 5vh;
+    border-radius: 20px;
+    font-size: 20px;
+    margin-bottom: 5vh;
+    outline: none;
+    border: none;
+}
+
+#To-Do-container p {
+    margin: 2px;
+    font-size: 20px;
+    color: tomato;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+}
